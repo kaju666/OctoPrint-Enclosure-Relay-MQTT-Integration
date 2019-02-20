@@ -1,11 +1,20 @@
 # OctoPrint-Enclosure-Relay-MQTT-Integration
 
-Easy Script to make a possibility to Turn ON and OFF Relays added in OctoPrint Enclosure Plugin. Can be easliy used with gbridge.io and then with Google Home.
+Easy script to make a possibility to Turn ON and OFF Relays added in OctoPrint Enclosure Plugin with MQTT. 
+Can be easliy used with gbridge.io and then with Google Home Assistant.
 
 ## Instalation
 
 1. Download mqtt_enclosure_plugin.py to your /home/pi/ folder.
 2. Change Config parameters to your variables.
+```
+out_1,out_2 - id of relays can be found in settings of enclosure plugin in octoprint
+op_api - api of octoprint 
+op_ip - ip of octoprint
+broker_ip, broker_port, broker_timeout - information of your MQTT broker eg. Mosquitto
+topic_sub - main topic to subscribe
+topic_out1, topic_out2 - topics for your relays
+```
 3. Change perrmision ```chmod +x mqtt_enclosure_plugin.py```
 4. Run in background ```nohup /home/pi/mqtt_enclosure_plugin.py &```
 
