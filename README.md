@@ -7,7 +7,7 @@ Can be easliy used with gbridge.io and then with Google Home Assistant.
 
 0. Install paho-mqtt library.
 ```
-apt-get install python-pip
+sudo apt-get install python-pip
 pip install paho-mqtt
 ```
 1. Download ```mqtt_enclosure_plugin.py``` to your ```/home/pi/``` folder.
@@ -20,7 +20,7 @@ broker_ip, broker_port, broker_timeout - information of your MQTT broker eg. Mos
 topic_sub - main topic to subscribe
 topic_out1, topic_out2 - topics for your relays
 ```
-3. Change perrmision ```chmod +x mqtt_enclosure_plugin.py```
+3. Change perrmision ```sudo chmod +x mqtt_enclosure_plugin.py```
 4. Run in background ```nohup /home/pi/mqtt_enclosure_plugin.py &```
 
 ## If you want to use it with gbridge.io and Google Home:
