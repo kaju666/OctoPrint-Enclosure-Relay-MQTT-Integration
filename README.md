@@ -22,9 +22,7 @@ topic_out1, topic_out2 - topics for your relays
 
 1. Install Mosquito newest version on your RPI:
 
-```
 https://theembeddedlab.com/tutorials/install-mosquitto-on-a-raspberry-pi/
-```
 
 2. Edit ```sudo nano /etc/mosquitto/mosquitto.conf``` adding at the end:
 ```
