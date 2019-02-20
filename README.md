@@ -5,7 +5,7 @@ Can be easliy used with gbridge.io and then with Google Home Assistant.
 
 ## Instalation
 
-1. Download ```tt_enclosure_plugin.py``` to your ```/home/pi/``` folder.
+1. Download ```mqtt_enclosure_plugin.py``` to your ```/home/pi/``` folder.
 2. Change Config parameters to your variables.
 ```
 out_1,out_2 - id of relays can be found in settings of enclosure plugin in octoprint
