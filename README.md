@@ -20,6 +20,8 @@ topic_out1, topic_out2 - topics for your relays
 
 ## If you want to use it with gbridge.io and Google Home:
 
+0. Create account on: gbridge.io
+
 1. Install Mosquito newest version on your RPI: https://theembeddedlab.com/tutorials/install-mosquitto-on-a-raspberry-pi/
 
 2. Edit ```sudo nano /etc/mosquitto/mosquitto.conf``` adding at the end:
